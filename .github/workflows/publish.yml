@@ -25,6 +25,9 @@ jobs:
     - name: Build the package
       run: npm run build
 
+    - name: Test the package
+      run: node dist/test.js
+
     - name: Publish package
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

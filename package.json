@@ -1,6 +1,6 @@
 {
   "name": "http-status-descriptions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A npm package that provides human-readable descriptions for HTTP status codes.",
   "main": "dist/index.js",
   "scripts": {
@@ -34,10 +34,7 @@
   },
   "homepage": "https://github.com/muhammad-usman-108/http-status-descriptions#readme",
   "devDependencies": {
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.13.0",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "medium-article-api": "^1.0.1"
   }
 }

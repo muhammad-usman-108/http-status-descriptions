@@ -1,6 +1,6 @@
 {
   "name": "http-status-descriptions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A npm package that provides human-readable descriptions for HTTP status codes.",
   "main": "index.js",
   "scripts": {

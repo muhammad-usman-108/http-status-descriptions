@@ -1,13 +1,43 @@
 {
   "name": "http-status-descriptions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A npm package that provides human-readable descriptions for HTTP status codes.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "npm run build && node dist/test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-usman-108/http-status-descriptions.git"
+  },
+  "keywords": [
+    "HTTP",
+    "status",
+    "codes",
+    "descriptions",
+    "status codes",
+    "HTTP status",
+    "HTTP codes",
+    "HTTP status codes",
+    "human-readable",
+    "developer tools",
+    "web development",
+    "API",
+    "error handling",
+    "API response"
+  ],
+  "author": "muhammad-usman-108",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammad-usman-108/http-status-descriptions/issues"
+  },
+  "homepage": "https://github.com/muhammad-usman-108/http-status-descriptions#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "medium-article-api": "^1.0.1"
+  }
 }

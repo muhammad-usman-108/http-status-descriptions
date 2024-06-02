@@ -1,0 +1,13 @@
+{
+  "name": "http-status-descriptions",
+  "version": "1.0.0",
+  "description": "A npm package that provides human-readable descriptions for HTTP status codes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

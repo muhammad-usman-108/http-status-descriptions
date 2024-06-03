@@ -50,8 +50,6 @@ const statusDescriptions: { [key: number]: string } = {
     505: 'HTTP Version Not Supported: The server does not support the HTTP protocol version used in the request.'
 };
 
-function getStatusDescription(statusCode: number): string {
+export const  getStatusDescription = (statusCode: number): string => {
     return statusDescriptions[statusCode] || 'Unknown status code';
 }
-
-export { getStatusDescription };
